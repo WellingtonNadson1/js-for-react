@@ -1,10 +1,11 @@
-function PlayerScore(){
+import './style.css'
+
+function PlayerScore(player){
+
     return `
-        <ul>
-            <li>Deus</li>
-            <li>Jesus</li>
-            <li>Espírito Santo</li>
-        </ul>
+        <h2>
+            ${player}
+        </h2>
     `
 };
 
