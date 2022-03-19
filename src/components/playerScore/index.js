@@ -1,8 +1,11 @@
 import './style.css'
 
-function PlayerScore(player){
+function PlayerScore(player1, player2){
 
     return `
+        <section>
+        
+        </section>
         <h2>
             ${player}
         </h2>

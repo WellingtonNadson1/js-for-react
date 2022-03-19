@@ -1,3 +1,4 @@
+@import url(generic/reset.css);
 @import url(settings/colors.css);
 @import url(elements/base.css);
-@import url(generic/reset.css);
+@import url(settings/fonts.css);
