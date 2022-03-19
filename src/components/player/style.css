@@ -1,24 +1,6 @@
-.players{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: var(--text-family);
-}
-
-.players > .player1{
-    padding: 25px 6px 0px 20px;
+.player{
+    padding: 0px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 10px;
-    color: var(--color-floral-white);
-}
-
-.players > .player2{
-    padding: 25px 20px 0px 6px;
     font-weight: 400;
     font-size: 12px;
     line-height: 10px;

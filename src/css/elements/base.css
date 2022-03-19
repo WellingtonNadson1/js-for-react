@@ -1,3 +1,4 @@
 body{
     background-color: var(--color-bg-global);
+    font-family: var(--text-family);
 }

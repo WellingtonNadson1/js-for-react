@@ -1,21 +1,11 @@
 import './style.css'
 
-function Player(player1, player2){
+function Player(player){
 
-    return `
-        <section class="players">
-            <div class="player1">
-                <h2>
-                    ${player1}
-                </h2>
-            </div>
-            <div class="player2">
-                <h2>
-                    ${player2}
-                </h2>
-            </div>            
-        </section>
-        
+    return /*html*/`
+        <h2 class="player">
+            ${player}
+        </h2>
     `
 };
 

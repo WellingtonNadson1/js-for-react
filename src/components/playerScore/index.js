@@ -2,7 +2,7 @@ import './style.css'
 
 function PlayerScore(player1, player2){
 
-    return `
+    return /*html*/`
         <section>
         
         </section>
