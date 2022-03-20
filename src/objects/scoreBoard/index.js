@@ -1,5 +1,6 @@
 import './style.css'
 import Player from '../../components/player';
+import VersusPlayerScore from '../../components/versusPlayerScore';
 
 function ScoreBoard(){
 
@@ -10,6 +11,7 @@ function ScoreBoard(){
                     ${Player("Player1")}
                 </h2>
             </div>
+            ${VersusPlayerScore()}
             <div class="player2">
                 <h2>
                     ${Player("Player2")}
