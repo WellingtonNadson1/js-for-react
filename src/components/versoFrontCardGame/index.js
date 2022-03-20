@@ -6,7 +6,7 @@ function versoFrontCardGame(){
     return /*html*/`
         <article class="verso-front-card-game">
             ${CardGame()}
-            ${CardGame()}
+            ${CardGame("logo-javascript.svg", "logo do Javascript")}
         </article>
     `
 }
