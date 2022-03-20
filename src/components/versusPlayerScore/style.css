@@ -1,0 +1,7 @@
+.versus-player{
+    font-size: 10px;
+    line-height: 8px;
+    margin-top: 22px;
+    text-align: center;
+    color: var(--color-versus-player);
+}
