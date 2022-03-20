@@ -1,16 +1,15 @@
-import CardGame from '../../components/cardGame';
+import versoFrontCardGame from '../../components/versoFrontCardGame';
 import './style.css'
 
-//BoardGame is a object (structure)
-//Function whith parametrs
+
 function BoardGame(amount){
-    //CardGame() is a imported component 
-    const $htmlCardGame = CardGame();
+    //versoFrontCardGame() is a imported component 
+    const $htmlversoFrontCardGame = versoFrontCardGame();
 
     //Use method repeat for n cards prints
-    const $htmlBoardGame = $htmlCardGame.repeat(amount);
+    const $htmlBoardGame = $htmlversoFrontCardGame.repeat(amount);
     
-    return `
+    return /*html*/`
         <section class="board-game">
             ${$htmlBoardGame}
         </section>
