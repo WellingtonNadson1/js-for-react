@@ -21,3 +21,6 @@ article.verso-front-card-game > div.verso-Card{
     transform: rotateY(180deg);
 }
 
+article.verso-front-card-game > div.verso-Card > .card-game{
+background-color: var(--color-bg-card-linguage);
+}

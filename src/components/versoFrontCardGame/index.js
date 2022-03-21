@@ -9,7 +9,7 @@ function versoFrontCardGame(){
                 ${CardGame()}
             </div>
             <div class="verso-Card">
-                ${CardGame("logo-javascript.svg", "logo do Javascript", "verso")}
+                ${CardGame("logo-javascript.svg", "logo do Javascript")}
             </div>
         </article>
     `
