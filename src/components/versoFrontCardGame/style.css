@@ -1,0 +1,23 @@
+.verso-front-card-game{
+    width: 130px;
+    height: 160px;
+    position: relative;
+    transition: transform 700ms;
+    transform-style: preserve-3d;
+}
+
+article.verso-front-card-game > div.front-Card{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+article.verso-front-card-game > div.verso-Card{
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY( 180deg );
+}
+
+.verso-front-card-game.-active{
+    transform: rotateY(180deg);
+}
+
