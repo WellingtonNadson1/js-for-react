@@ -12,18 +12,3 @@ ${ScoreBoard()}
 ${BoardGame(6)}
 
 `);
-
-
-
-
-//Flipper Card
-const turn = document.querySelector('.verso-front-card-game');
-console.log(turn);
-
-    turn.addEventListener('click', 
-    function(){
-        
-            
-        
-        turn.classList.toggle('-active');
-    });

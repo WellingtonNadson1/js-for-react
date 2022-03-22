@@ -1,5 +1,6 @@
 import './style.css'
 
+
 function CardGame(logo ="logo-shield.png", alt = "Shield Logo", cl = ""){
     return /*html*/`
         <article class="card-game${cl}">
