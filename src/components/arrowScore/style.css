@@ -1,0 +1,21 @@
+.box-score.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 74px;
+    margin-top: 10px;
+}
+
+.box-score.player.-change{
+    margin-left: 74px;
+}
+
+.arrow-score{
+    width: 20px;
+    height: 15px;
+}
+
+.arrow-score > img{
+    width: 100%;
+    height: 100%;
+}
