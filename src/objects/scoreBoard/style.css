@@ -1,6 +1,6 @@
 .players{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 320px;
     margin-left: auto;
@@ -8,18 +8,18 @@
 }
 
 .players > .player1{
-    padding: 25px 6px 0px 20px;
+    padding: 3px 10px 0px 00px;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 10px;
     color: var(--color-floral-white);
 }
 
 .players > .player2{
-    padding: 25px 20px 0px 6px;
+    padding: 3px 0px 0px 10px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 10px;
     color: var(--color-floral-white);
 }
