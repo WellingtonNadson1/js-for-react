@@ -1,0 +1,18 @@
+.score{
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+.score > ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score > ol > li{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 0.9px solid var(--color-floral-white);
+    background-color: var(--color-bg-score);
+}

@@ -1,14 +1,15 @@
 import './style.css'
 
-function PlayerScore(player1, player2){
+function PlayerScore(points = 0){
 
     return /*html*/`
-        <section>
-        
-        </section>
-        <h2>
-            ${player}
-        </h2>
+        <article class="score" data-points="${points}">
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </article>
     `
 };
 
