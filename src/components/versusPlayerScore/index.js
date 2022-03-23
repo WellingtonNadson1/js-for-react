@@ -1,9 +1,9 @@
 import './style.css'
 
-function VersusPlayerScore(){
+function VersusPlayerScore(content = "vs"){
     return/*html*/`
     <p class="versus-player">
-        vs
+        ${content}
     </p>
     `
 }
