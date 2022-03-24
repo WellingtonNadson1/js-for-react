@@ -1,5 +1,9 @@
 .score{
+    width: 50px;
+    height: 20px;
     margin-top: 2px;
+    background-color: var(--color-floral-white);
+    border: 2px solid #F25A70;
     box-sizing: border-box;
 }
 
@@ -7,12 +11,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .score > ol > li{
     display: inline-block;
     width: 14px;
     height: 14px;
-    border: 0.9px solid var(--color-floral-white);
+    border: 1px solid var(--color-floral-white);
     background-color: var(--color-bg-score);
 }
