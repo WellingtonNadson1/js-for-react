@@ -14,9 +14,9 @@ function ScoreBoard(){
                     ${Player("Player1")}
                 </h2>
             </div>
-            ${PlayerScore()}
+            ${PlayerScore(2)}
             ${VersusPlayerScore()}
-            ${PlayerScore()}
+            ${PlayerScore(2)}
             <div class="player2">
                 <h2>
                     ${Player("Player2")}

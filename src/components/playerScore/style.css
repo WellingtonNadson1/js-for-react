@@ -14,10 +14,26 @@
     box-sizing: border-box;
 }
 
-.score > ol > li{
+.score > ol > .point{
     display: inline-block;
     width: 14px;
     height: 14px;
     border: 1px solid var(--color-floral-white);
     background-color: var(--color-bg-score);
+}
+
+article.score[data-points = "1"] > ol > .point:first-child{
+    background-color: var(--color-green-ok);
+}
+
+article.score[data-points = "2"] > ol{
+    flex-direction: row-reverse;
+}
+
+article.score[data-points = "2"] > ol > .point:nth-child(n+2){
+    background-color: var(--color-green-ok);
+}
+
+article.score[data-points = "3"] > ol > .point{
+    background-color: var(--color-green-ok);
 }
