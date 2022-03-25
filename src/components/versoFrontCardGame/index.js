@@ -2,7 +2,7 @@ import CardGame from '../cardGame';
 import './style.css';
 
 
-function versoFrontCardGame(){
+function versoFrontCardGame(image, altImage){
     // I used a DOM Object (window) for manipulatio the event onClick
     // Named especific the object for use only here
     window.versoFrontCardGame = {};
@@ -15,7 +15,8 @@ function versoFrontCardGame(){
 
         $versoFrontCardGame.classList.toggle('-active');
 
-    };    
+    };
+    
 
     return /*html*/`
         <article class="verso-front-card-game" onClick = "versoFrontCardGame.handleClick(event)">
@@ -23,7 +24,7 @@ function versoFrontCardGame(){
                 ${CardGame()}
             </div>
             <div class="verso-Card">
-                ${CardGame("logo-javascript.svg", "logo do Javascript")}
+                ${CardGame(image, altImage)}
             </div>
         </article>
     `

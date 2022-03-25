@@ -1,17 +1,21 @@
 import versoFrontCardGame from '../../components/versoFrontCardGame';
+import cards from './arraycard';
 import './style.css'
 
 
 function BoardGame(amount){
-    //versoFrontCardGame() is a imported component 
-    const $htmlversoFrontCardGame = versoFrontCardGame();
 
-    //Use method repeat for n cards prints
-    const $htmlBoardGame = $htmlversoFrontCardGame.repeat(amount);
+    //versoFrontCardGame() is a imported component 
+    const htmlCardList = cards.map((card) => versoFrontCardGame(card.image, card.altImage));
+    console.log(htmlCardList);
+
+    const $htmlCards = htmlCardList.join('');
+    console.log($htmlCards);
     
+
     return /*html*/`
         <section class="board-game">
-            ${$htmlBoardGame}
+            ${$htmlCards}
         </section>
     `
 };
