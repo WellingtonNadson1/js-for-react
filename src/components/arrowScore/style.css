@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 74px;
     margin-top: 10px;
+    transform: translateX(-40px);
+    transition: transform 250ms ease-in-out;
 }
 
-.box-score.player.-change{
-    margin-left: 74px;
+.box-score.player[data-arrowPlayerNow="2"]{
+    transform: translateX(40px);
 }
 
 .arrow-score{
