@@ -10,16 +10,16 @@ function versoFrontCardGame(image, altImage){
         // I get the element clicked
         const $origin = event.target;
         console.log($origin)
+    
 
         const $versoFrontCardGame = $origin.closest('.verso-front-card-game');
 
         $versoFrontCardGame.classList.toggle('-active');
 
     };
-    
 
     return /*html*/`
-        <article class="verso-front-card-game" onClick = "versoFrontCardGame.handleClick(event)">
+        <article id="click" class="verso-front-card-game" onClick = "versoFrontCardGame.handleClick(event)">
             <div class="front-Card">
                 ${CardGame()}
             </div>
