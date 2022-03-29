@@ -6,9 +6,9 @@ import './style.css'
 function BoardGame(){
 
     //versoFrontCardGame() is a imported component 
-    //Traverse the array 'cards' with method map, for create the new card with image
+    //Traverse the array 'cards' with method map, for create the new card with image and Alt image
     const htmlCardList = cards
-    .map((card) => versoFrontCardGame(card.image, card.altImage));
+    .map((card) => versoFrontCardGame(card.image, card.altImage, card.dataName));
 
     //Algoritmo Fisher-Yates For shuffle the Cards
     function fisherYatesShuffle(arr){
@@ -27,7 +27,6 @@ function BoardGame(){
     const shuffle = fisherYatesShuffle(htmlCardList);
 
     const $htmlCards = shuffle.join('');
-    
 
     return /*html*/`
         <section class="board-game">

@@ -1,25 +1,15 @@
 import CardGame from '../cardGame';
+import FlipCard from './flipCard';
 import './style.css';
 
 
-function versoFrontCardGame(image, altImage){
-    // I used a DOM Object (window) for manipulatio the event onClick
-    // Named especific the object for use only here
-    window.versoFrontCardGame = {};
-    window.versoFrontCardGame.handleClick = (event) =>{
-        // I get the element clicked
-        const $origin = event.target;
-        console.log($origin)
-    
+function versoFrontCardGame(image, altImage, dataName){
 
-        const $versoFrontCardGame = $origin.closest('.verso-front-card-game');
-
-        $versoFrontCardGame.classList.toggle('-active');
-
-    };
+    //Function respomsible flip cards
+    FlipCard();
 
     return /*html*/`
-        <article id="click" class="verso-front-card-game" onClick = "versoFrontCardGame.handleClick(event)">
+        <article data-name="${dataName}" class="verso-front-card-game" onClick = "versoFrontCardGame.handleClick(event)">
             <div class="front-Card">
                 ${CardGame()}
             </div>
