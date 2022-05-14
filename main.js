@@ -1,4 +1,4 @@
-import './src/css/main.css'
+import './css/main.css'
 import BoardGame from './src/objects/boardGame';
 import ScoreBoard from './src/objects/scoreBoard';
 
