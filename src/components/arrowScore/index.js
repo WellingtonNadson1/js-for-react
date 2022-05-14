@@ -1,5 +1,4 @@
 import './style.css'
-import '../../../images'
 
 function ArrowSocre(){
 

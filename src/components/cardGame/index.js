@@ -1,5 +1,4 @@
 import './style.css'
-import '../../../images'
 
 
 function CardGame(logo ="images/logo-shield.svg", alt = "Shield Logo", cl = ""){
